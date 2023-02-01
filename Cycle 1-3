@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+	int fact=1,a,b,c;
+	printf("Enter The Number To find Its Factorial:");
+	scanf("%d",&a);
+	b=a;
+	while(a!=0)
+	{
+		fact*=a;
+		a-=1;
+	}
+	printf("The Factorial of %d is:%d",b,fact);
+}
