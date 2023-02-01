@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+	int a,b,c,d=0;
+	printf("Enter The Number To reverse:");
+	scanf("%d",&a);
+	b=a;
+	while(a!=0)
+	{
+		d=d*10+a%10;
+		a/=10;
+	}
+	printf("The Revesed Number of %d is %d",b,d);
+}
