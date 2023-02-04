@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{
+	int a,b,c,d,e,f,g,h;
+	printf("available denominatons 2000,500,200,100\n");
+	printf("enter the denomination:");
+	scanf("%d",&a);
+	printf("enter the first denomination notes:");
+	scanf("%d",&e);
+	printf("enter the second denomination notes:");
+	scanf("%d",&b);
+	printf("enter the second denomination notes:");
+	scanf("%d",&f);
+	printf("enter the third denomination:");
+	scanf("%d",&c);
+	printf("enter the third denomination notes:");
+	scanf("%d",&g);
+	printf("enter the fourth denomination:");
+	scanf("%d",&d);
+printf("enter the fourth denomination notes:");
+scanf("%d",&h);
+printf("total available balance in atm:%d",(a*e)+(b*f)+(c*g)+(d*h));
+}
